@@ -1,0 +1,30 @@
+Source: snmp++
+Priority: optional
+Maintainer: Florian Lohoff <f@zz.de>
+Build-Depends: debhelper-compat (= 13), autotools-dev
+Standards-Version: 4.5.1
+Section: libs
+Homepage: http://www.agentpp.com/api/cpp/snmp_pp.html
+Rules-Requires-Root: no
+
+Package: libsnmp++-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libsnmp++ (= ${binary:Version}), ${misc:Depends}
+Description: C++ SNMP Library
+ C++ SNMP Library
+
+Package: libsnmp++
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: C++ SNMP Library
+ C++ SNMP Library
+
+Package: snmp++
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: C++ SNMP Library userspace tools
+ C++ SNMP Library userspace tools
