@@ -24,7 +24,6 @@ Description: C++ SNMP Library
 
 Package: snmp++
 Architecture: any
-Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: C++ SNMP Library userspace tools
  C++ SNMP Library userspace tools
