@@ -11,11 +11,11 @@ Package: libsnmp++-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libsnmp++ (= ${binary:Version}), ${misc:Depends}
+Depends: libsnmp++34 (= ${binary:Version}), ${misc:Depends}
 Description: C++ SNMP Library
  C++ SNMP Library
 
-Package: libsnmp++
+Package: libsnmp++34
 Architecture: any
 Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
