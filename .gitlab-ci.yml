@@ -5,5 +5,5 @@ build:
     DEBIAN_FRONTEND: "noninteractive"
     GIT_SUBMODULE_STRATEGY: recursive
   script:
-    - apt-get update && apt-get -fuy install git build-essential git-buildpackage dpkg-dev fakeroot libssl-dev autoconf
+    - apt-get update && apt-get -fuy install git build-essential git-buildpackage dpkg-dev fakeroot libssl-dev autoconf pkg-config
     - dpkg-buildpackage -rfakeroot -us -uc -b
