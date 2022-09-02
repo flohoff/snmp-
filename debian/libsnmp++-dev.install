@@ -3,3 +3,4 @@ usr/include/snmp_pp/*
 usr/lib/x86_64-linux-gnu/pkgconfig/snmp++-3.pc
 usr/lib/x86_64-linux-gnu/libsnmp++.a
 usr/lib/x86_64-linux-gnu/libsnmp++.la
+usr/lib/x86_64-linux-gnu/libsnmp++.so
